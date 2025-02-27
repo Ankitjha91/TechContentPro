@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import DSA from "./pages/DSA";
+import JavaScriptPage from "./pages/JavaScriptPage";
+import ReactJS from "./pages/ReactJS";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dsa" element={<DSA />} />
+            <Route path="/javascript" element={<JavaScriptPage />} />
+            <Route path="/reactjs" element={<ReactJS />} />
           </Routes>
         </div>
         <Footer />
