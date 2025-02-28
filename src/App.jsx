@@ -6,6 +6,10 @@ import Home from "./pages/Home";
 import DSA from "./pages/DSA";
 import JavaScriptPage from "./pages/JavaScriptPage";
 import ReactJS from "./pages/ReactJS";
+import "./styles.css";
+import NextJs from "./pages/NextJS";
+import NodeJS from "./pages/NodeJS";
+import MongoDB from "./pages/MongoDB";
 
 const App = () => {
   return (
@@ -18,6 +22,9 @@ const App = () => {
             <Route path="/dsa" element={<DSA />} />
             <Route path="/javascript" element={<JavaScriptPage />} />
             <Route path="/reactjs" element={<ReactJS />} />
+            <Route path="/nextjs" element={<NextJs />} />
+            <Route path="/nodejs" element={<NodeJS />} />
+            <Route path="/mongodb" element={<MongoDB />} />
           </Routes>
         </div>
         <Footer />
